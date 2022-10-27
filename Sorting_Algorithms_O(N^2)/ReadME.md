@@ -4,7 +4,8 @@
         -First item in the array is considered sorted so we take the second item and save it in the auxiliary variable.
         -Then we compare the saved value with his neighbors on the left side. If the saved
        value is smaller than the number we compared, we shift the compared number to the right in array.
-        -We keep repeating the comparison and shifting until we reach the end of the array or the compared value is smaller or equal with the saved value.
+        -We keep repeating the comparison and shifting until we reach the end of the array or the compared value is smaller or equal 
+        with the saved value.
         - Then the save value is updated in the array at the correct position.
 
  <img src="Insertion.png" style="
