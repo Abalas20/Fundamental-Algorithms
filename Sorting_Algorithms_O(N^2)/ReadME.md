@@ -1,5 +1,4 @@
 ## Sorting Algorithms with O(n^2) time complexity
-@author Balas Alexandru-Andrei
  ## 1.Insertion Sort:
  *      1.1 How it works:
  *       -First item in the array is considered sorted so we take the second item and
