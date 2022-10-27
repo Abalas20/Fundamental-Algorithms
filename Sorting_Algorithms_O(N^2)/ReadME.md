@@ -1,5 +1,4 @@
 ## Sorting Algorithms with O(n^2) time complexity
-@author Balas Alexandru-Andrei
  ## 1.Insertion Sort:
  ###      1.1 How it works:
         -First item in the array is considered sorted so we take the second item and save it in the auxiliary variable.
@@ -59,7 +58,19 @@
            Time Complexity: O(N^2) and Ω(N log N)
            Stable: Yes
  ## What it "Profiler.h" ?
+<<<<<<< HEAD
     A == assignment, C == comparison
     I used the profiler library to create a graph and represent the total number of 
     operations (assignments + comparisons) for each algorithm in every case(average, best and worst).
 <img src="AVG.png">
+=======
+ *  A == assignment
+ *  C == comparison
+ *  I used the profiler library to create a graph and represent the total number of 
+ * operations (assignments + comparisons) for each algorithm in every case(AVG-average,
+ * best and worst).
+[AVG case](file:///C:/Users/abala/Desktop/CS/Year2/Sem1/OOP/Fundamental-Algorithms/Sorting%20Algorithms/report-AVG-20221016-193151.html)
+[Best case](file:///C:/Users/abala/Desktop/CS/Year2/Sem1/OOP/Fundamental-Algorithms/Sorting%20Algorithms/report-Best-20221016-193204.html)
+[Worst case](file:///C:/Users/abala/Desktop/CS/Year2/Sem1/OOP/Fundamental-Algorithms/Sorting%20Algorithms/report-Worst-20221016-193318.html)
+ 
+>>>>>>> 9956c81d751e6ef9f594bb1b569e5c2b40ad79ed
