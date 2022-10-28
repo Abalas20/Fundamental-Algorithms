@@ -25,7 +25,7 @@
        the minimum value again.
         - After every swap the search is done faster because the elements from 0 to i are 
        sorted.
-<img src="Selection.png" style="
+<img src="Selection.jpg" style="
     display: block;
     margin-left: 350px;
     margin-right: middle }">
@@ -58,20 +58,24 @@
  ###      4.2 Complexity:
            Time Complexity: O(N^2) and Ω(N log N)
            Stable: Yes
- ## What it "Profiler.h" ?
-<<<<<<< HEAD
+ ## What is "Profiler.h" ?
     A == assignment, C == comparison
     I used the profiler library to create a graph and represent the total number of 
     operations (assignments + comparisons) for each algorithm in every case(average, best and worst).
+
+## Average case:
+### We can clearly see that bubble is the slowest algorithm among them while the Binary Insertion sort is the fastest. Simple Insertion sort and Selection sort are quite close to each other.
+Iop = Insertion sort operations          
+Sop = Selection sort operations          
+Bop = Bubble sort operations             
+BinaryOp = Binary Insertion sort operations       
+Size = Numbers sorted
 <img src="AVG.png">
-=======
- *  A == assignment
- *  C == comparison
- *  I used the profiler library to create a graph and represent the total number of 
- * operations (assignments + comparisons) for each algorithm in every case(AVG-average,
- * best and worst).
-[AVG case](file:///C:/Users/abala/Desktop/CS/Year2/Sem1/OOP/Fundamental-Algorithms/Sorting%20Algorithms/report-AVG-20221016-193151.html)
-[Best case](file:///C:/Users/abala/Desktop/CS/Year2/Sem1/OOP/Fundamental-Algorithms/Sorting%20Algorithms/report-Best-20221016-193204.html)
-[Worst case](file:///C:/Users/abala/Desktop/CS/Year2/Sem1/OOP/Fundamental-Algorithms/Sorting%20Algorithms/report-Worst-20221016-193318.html)
- 
->>>>>>> 9956c81d751e6ef9f594bb1b569e5c2b40ad79ed
+
+## Best case:
+### Selection sort is very slow compared with the other algorithms.
+ <img src ="Best.png">
+
+## Worst case:
+### Bubble sort is the slowest in the worst case.
+ <img src ="Worst.png">
