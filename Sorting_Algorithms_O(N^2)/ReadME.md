@@ -8,7 +8,7 @@
         with the saved value.
         - Then the save value is updated in the array at the correct position.
 
- <img src="Insertion.png" style="
+ <img src="Images\Insertion.png" style="
     display: block;
     margin-left: 350px;
     margin-right: middle }">
@@ -25,7 +25,7 @@
        the minimum value again.
         - After every swap the search is done faster because the elements from 0 to i are 
        sorted.
-<img src="Selection.jpg" style="
+<img src="Images\Selection.jpg" style="
     display: block;
     margin-left: 350px;
     margin-right: middle }">
@@ -40,7 +40,7 @@
         -Works by repeatedly swapping the adjacent elements if they are in the wrong order.
         -Bubble sort can have a stopping condition. If during a complete iteration no swap
         was made, then the array is sorted and the alghoritm can stop.
-<img src="Bubble.png" style="
+<img src="Images\Bubble.png" style="
     display: block;
     margin-left: 350px;
     margin-right: middle }">
@@ -70,12 +70,12 @@ Sop = Selection sort operations
 Bop = Bubble sort operations             
 BinaryOp = Binary Insertion sort operations       
 Size = Numbers sorted
-<img src="AVG.png">
+<img src="Images\AVG.png">
 
 ## Best case:
 ### Selection sort is very slow compared with the other algorithms.
- <img src ="Best.png">
+ <img src ="Images\Best.png">
 
 ## Worst case:
 ### Bubble sort is the slowest in the worst case.
- <img src ="Worst.png">
+ <img src ="Images\Worst.png">
