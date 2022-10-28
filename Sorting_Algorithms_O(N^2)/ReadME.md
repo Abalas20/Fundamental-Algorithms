@@ -4,7 +4,8 @@
         -First item in the array is considered sorted so we take the second item and save it in the auxiliary variable.
         -Then we compare the saved value with his neighbors on the left side. If the saved
        value is smaller than the number we compared, we shift the compared number to the right in array.
-        -We keep repeating the comparison and shifting until we reach the end of the array or the compared value is smaller or equal with the saved value.
+        -We keep repeating the comparison and shifting until we reach the end of the array or the compared value is smaller or equal 
+        with the saved value.
         - Then the save value is updated in the array at the correct position.
 
  <img src="Insertion.png" style="
@@ -39,7 +40,7 @@
         -Works by repeatedly swapping the adjacent elements if they are in the wrong order.
         -Bubble sort can have a stopping condition. If during a complete iteration no swap
         was made, then the array is sorted and the alghoritm can stop.
-<img src="Selection.png" style="
+<img src="Bubble.png" style="
     display: block;
     margin-left: 350px;
     margin-right: middle }">
